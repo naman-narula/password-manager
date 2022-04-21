@@ -1,0 +1,37 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  width:500px;
+  margin: 16px auto;
+  background-color: #000;
+}
+
+.password-paper{
+  margin: 16px 8px;
+  border-radius: 10px/10px;
+  width:200px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.password-paper button{
+  border-radius: 10px/10px;
+  margin: 8px;
+}
+.encrypted{
+  visibility: hidden;
+}
+
+form[action="/submit"] {
+  margin: auto;
+  width: 500px;
+}
